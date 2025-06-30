@@ -1,0 +1,285 @@
+.zero{
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.one{
+    justify-content:left;
+    display: flex;
+}
+.two{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.three{
+    justify-content: right;
+}
+
+.w{
+    display: flex;
+    justify-content:space-around;
+    background-color:gray;
+    padding: 3%;
+}
+.s{
+    width: 400px;
+    height: auto;
+    padding: 3%;
+}
+.v{
+        width: 500px;
+}
+.thar{
+    background-color: antiquewhite;
+}
+.content{
+    display: flex;
+    justify-content:space-around;
+    gap: 120px;
+}
+.box{
+    border: 2px solid black;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+  .about-section {
+      padding: 80px 20px;
+      max: width 2000px;;
+      margin: auto;
+      background-color: #e8dddd;
+      width:auto;
+    }
+
+    .about-section h1 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .about-section p {
+      font-size: 15px;
+      color: #333;
+      line-height: 1;
+      width: 700px;
+      margin: auto;
+      text-align: center;
+    }
+    .tha{
+        text-align: center;
+    }
+    .rt{
+        text-align: center;
+    }
+    .projects{
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+        padding: 4%;
+        background-color: aquamarine;
+    }
+    .boxs{
+    border: 2px solid black;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+.k{
+    text-align: center;
+    padding: 5%;
+    background-color: cornsilk;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contact-section {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.contact-details {
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.contact-details a i {
+  margin-right: 8px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 20px;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.contact-section .copyright {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+.thar {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.services {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.services h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background-color: orange;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px auto;
+  color: #fff;
+  font-size: 24px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.projects {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.projects h2 {
+  font-size: 28px;
+  color: #333;
+ text-align: center;
+   
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
